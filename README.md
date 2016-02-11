@@ -3,7 +3,7 @@
 This is a template I created based on the need to have a decent syntax theme
 for Babel/ES6 Javascript code.
 
-<!-- ![A screenshot!](https://f.cloud.github.com/assets/69169/2302417/fec4d2e4-a17b-11e3-927e-b4e375d3e26c.png) -->
+![A screenshot!](http://i.imgur.com/oDaT5Lr.png?1)
 
 ### Notes and best practices
 

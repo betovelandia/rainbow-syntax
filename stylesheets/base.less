@@ -302,3 +302,74 @@
 .editor.mini .scroll-view {
   padding-left: 1px;
 }
+
+// Javascript
+
+.js,
+.jsx {
+
+  .meta.class {
+    color: @very-light-gray;
+  }
+
+  .keyword.control {
+    color: @jordy-blue;
+    &.flow {
+      color: @brink-pink;
+    }
+  }
+
+  .object {
+
+    // Object keys.
+    .string.unquoted {
+      color: @caper;
+    }
+
+  }
+
+  .storage {
+    color: @brink-pink;
+  }
+
+  .variable {
+    color: white;
+
+    // import variables.
+    &.readwrite {
+      color: white;
+    }
+
+    // this.foo
+    &.this {
+      color: @orange;
+    }
+  }
+
+  .entity.name.class,
+  .entity.name.type.class,
+  .variable.class {
+    color: @orange;
+    font-style: italic;
+  }
+
+  // methods names
+  .entity.name.function {
+    color: @red;
+  }
+
+// jsx
+
+  .jsx {
+
+    .punctuation.embedded.begin.jsx,
+    .punctuation.embedded.end.jsx {
+      color: white;
+    }
+
+  }
+
+}
+
+
+
