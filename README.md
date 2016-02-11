@@ -10,5 +10,4 @@ for Babel/ES6 Javascript code.
 * Define proper colors in your `syntax-variables.less` file. Other packages
   can use these variables. All the variables defined in this package's
   `syntax-variables.less` file must be defined &mdash; you cannot pick and choose.
-* Always have a high-quality screenshot in the README
 * The `colors.less` file is not necessary, but it's good practice.
