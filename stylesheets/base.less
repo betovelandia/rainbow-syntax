@@ -103,7 +103,7 @@
   }
 
   &.numeric {
-    color: @orange;
+    color: @medium-spring-green;
   }
 
   &.other.color {
@@ -312,6 +312,13 @@
     color: @very-light-gray;
   }
 
+  // Function paramters
+  .meta.function {
+    .variable.readwrite {
+      color: @supernova;
+    }
+  }
+
   .keyword.control {
     color: @jordy-blue;
     &.flow {
@@ -326,6 +333,10 @@
       color: @spindle;
     }
 
+    .punctuation.separator {
+      color: white;
+    }
+
   }
 
   .string {
@@ -334,6 +345,13 @@
 
   .storage {
     color: @brink-pink;
+  }
+
+  // JSDoc
+  .documentation {
+    .storage {
+      color: @medium-spring-green;
+    }
   }
 
   .variable {
@@ -346,7 +364,7 @@
 
     // this.foo
     &.this {
-      color: @orange;
+      color: @jordy-blue;
     }
   }
 
@@ -383,5 +401,10 @@
   }
 }
 
-
+.css,
+.less {
+  .variable.interpolation {
+    color: @orange;
+  }
+}
 
