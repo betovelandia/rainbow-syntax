@@ -62,7 +62,7 @@
 
 .entity {
   &.name.type {
-    color: @light-orange;
+    color: @supernova;
     text-decoration: underline;
   }
 
@@ -371,7 +371,8 @@
   .entity.name.class,
   .entity.name.type,
   .entity.name.type.class,
-  .variable.class {
+  .variable.class,
+  .support.class {
     color: @orange;
     font-style: italic;
     text-decoration: none;
@@ -387,7 +388,7 @@
     color: @medium-spring-green;
   }
 
-// jsx
+// JSX
 
   .jsx {
 
@@ -400,12 +401,15 @@
 
 }
 
+// JSON
 .json {
   .string {
     color: white;
   }
 }
 
+
+// CSS & LESS
 .css,
 .less {
   .variable.interpolation {
@@ -413,9 +417,58 @@
   }
 }
 
+
+// Handlebars
+
 .handlebars {
   .entity.name.function {
+    color: @jordy-blue;
+  }
+}
+
+// Ruby
+.ruby {
+
+  &.source {
+    color: white;
+  }
+
+  .entity.name.class,
+  .entity.name.type.class {
+    color: @supernova;
+    font-style: italic;
+  }
+
+  .entity.other.inherited-class {
+    .punctuation {
+      font-style: normal;
+    }
     color: @medium-spring-green;
+  }
+
+  .entity.name.type {
+    text-decoration: none;
+  }
+
+  .entity.name.function {
+    color: @supernova;
+  }
+
+  .constant {
+    color: @supernova;
+  }
+
+  .keyword.control {
+    color: @red;
+  }
+
+  .keyword.other.special-method {
+    color: @jordy-blue;
+  }
+
+  .constant.other.symbol,
+  .constant.other.symbol .punctuation {
+    color: @spindle;
   }
 }
 
