@@ -1,7 +1,7 @@
 {
   "name": "rainbow-syntax",
   "theme": "syntax",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "private": false,
   "description": "Are you unhappy with the ES6 color syntax on most themes? this syntax theme is compatible with JS (ES6/JSX/ES5), Ruby, Handlebars, CSS",
   "repository": "https://github.com/betovelandia/rainbow-syntax",
